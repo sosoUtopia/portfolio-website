@@ -11,7 +11,7 @@ const Ball = () => {
     Interactive Javascript 2D animation shooting game in the Clemson CUhackit 2022 Hackathons Utilized Vanilla
     </p>
     <p>
-    Utilize Javascript, HTML, and CSS
+    CUHackit Hackathon 2021<br/><br/>Utilize Javascript, HTML, and CSS
     </p>
     
   </div>  )

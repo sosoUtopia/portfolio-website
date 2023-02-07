@@ -12,7 +12,7 @@ const Trader = () => {
       analysis and interacts with the Alpaca Paper Trader with functional frontend and backend Utilized Django, Django
       </p>
       <p>
-      Utilize Django, Django REST, Python, React, Typescript, HTML, CSS, TextBlob, Tweepy, Pandas, Numpy, and Praw
+      LPL Financial Hackathon 2023 <br/><br/>Utilize Django, Django REST, Python, React, Typescript, HTML, CSS, TextBlob, Tweepy, Pandas, Numpy, and Praw
       </p>
       
     </div>  )
