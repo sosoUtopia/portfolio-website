@@ -12,7 +12,7 @@ const Education = () => {
             {/* <img src= {educationImg} alt="" className="education-img" /> */}
             <div className="education-data">
                 <Info />
-                <p className="education-description">Super Idol developer, I make stuff in general, y'know?</p>
+                {/* <p className="education-description">Super Idol developer, I make stuff in general, y'know?</p> */}
                 <a download="" href={CV} className="button button--flex">Download Resume</a>
                 <svg
                 class="button-icon"
