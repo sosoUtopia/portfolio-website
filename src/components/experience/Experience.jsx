@@ -13,7 +13,7 @@ const Experience = () => {
         <span className="section-subtitle">
             My Work and Leadership Experiences
         </span>
-        <div className="education-container container grid">
+        <div className="experience-container container grid">
             <Creative />
             <Asa />
             {/* <div className="asa_img"></div> */}

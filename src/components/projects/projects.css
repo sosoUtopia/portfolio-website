@@ -62,7 +62,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* box-shadow: inset 0 0 0 9px rgb(0, 0, 0); */
     justify-self: center;
     order: 1;
     width: 300px;
@@ -86,37 +85,18 @@
 } */
 
 @media screen and (max-width: 992px) {
-    /* .project-content {
-        grid-template-columns: 100px repeat(2, 1fr);
-        column-gap: 1.2rem;
-    }
-
-    .project-hand {
-        width: 26px;
-        height: 26px;
-    }
-
-    .project-subtitle {
-        padding-left: 3.75rem;
-        margin-bottom: var(--mb-1);
-    }
-
-    .project-subtitle::before {
-        width: 42px;
-        top: 0.8rem;
-    }
-
-    .project-description {
-        max-width: initial;
-        margin-bottom: var(--mb-2-5);
-    } */
 
     .project-img {
-        visibility: hidden;
+        visibility: visible;
         width: 250px;
         height: 250px;
         box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
     }
+    .project-content { 
+        grid-template-columns: 0.5fr 3fr;
+        padding-top: 3.5rem;
+    }
+
   }
   
   /* For medium devices */
@@ -136,7 +116,6 @@
     }
     
     .project-img {
-        box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
         height: 200px;
         width: 200px;
     }

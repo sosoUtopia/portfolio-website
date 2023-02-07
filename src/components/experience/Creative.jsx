@@ -28,6 +28,7 @@ const Creative = () => {
                 </li>
                 
             </ul>
+            <div className="creative-inquiry-img"></div>
         </div>
         <span className="experience-button" onClick={() => toggleTab(1)}>View More{" "}
                 <i className="uil uil-arrow-right experience-button-icon"></i></span>
@@ -70,7 +71,6 @@ const Creative = () => {
               </ul>
             </div>
           </div>
-          <div className="creative-inquiry-img"></div>
     </div>  
     )
 }
