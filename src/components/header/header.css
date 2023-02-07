@@ -1,0 +1,25 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:var(--z-fixed);
+    background-color: var(--container-color);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    height: calc(var(--header-height) + 1.5rem);
+
+}
+
+.nav {
+    height: calc(var(--header-height) + 1.5rem);
+    display: flex;
+    align-items: center;
+} 
+
+.nav-logo {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+} 
+
+

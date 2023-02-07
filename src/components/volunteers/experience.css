@@ -1,0 +1,30 @@
+.experience-container {
+    grid-template-columns: repeat(1, 500px);
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-content {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+}
+
+.experience-title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    text-align: center;
+    /* margin-bottom: var(--mb-1); */
+}
+
+.experience-subtitle {
+    font-weight:900;
+    text-align: center;
+    margin-bottom: var(--mb-0-5);
+}
+
+.experience-description {
+    font-size: var(--normal-font-size);
+
+}
