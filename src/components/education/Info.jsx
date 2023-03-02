@@ -17,7 +17,7 @@ const Info = () => {
         <div className="education-box">
             <i class='bx bx-happy-alt education-icon'></i>
             <h3 className="education-title">Projected Graduation</h3>
-                <span className="education-subtitle">May 2026</span>
+                <span className="education-subtitle">May 2025</span>
         </div>
         <div className="education-box">
             <i class='bx bx-timer education-icon'></i>
