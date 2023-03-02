@@ -26,6 +26,11 @@ const Creative = () => {
                         Incorporate Natural Language Processing audio mining from records extracted from psychotherapy sessions.
                     </div>
                 </li>
+                <li class>
+                  <div className="experience-description">
+                  Goal: Create training tools using machine learning model from data extracted from therapy sessions
+                  </div>
+                </li>
                 
             </ul>
             <div className="creative-inquiry-img"></div>

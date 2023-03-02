@@ -22,7 +22,7 @@ const Asa = () => {
             </li>
             <li class>
                 <div className="experience-description">
-                Coordinate event planning for 90+ attendees with various on campus organizations monthly                
+                Coordinate event planning for 70+ attendees with various on campus organizations monthly                
                 </div>
             </li>
             
