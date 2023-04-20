@@ -8,7 +8,7 @@ const Nasa = () => {
       setToggleState(index);
     }
 
-    let API_KEY = 'HEEIbFG5iOhd4GuvYW9EN8rE6QhBY84H7zZWgFNw';
+    let API_KEY = 'I7wAETlfmdUb6V30YRzGxj2V2wcycaYPSH3LBESG';
 
     const [img, setImg] = useState();
     const [word, setWord] = useState();
@@ -17,7 +17,7 @@ const Nasa = () => {
         axios.get(
             `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`
             ).then((response) => {
-                setImg(response.data.hdurl)
+                setImg(response.data.url)
                 setWord(response.data.explanation)
             })
         }
