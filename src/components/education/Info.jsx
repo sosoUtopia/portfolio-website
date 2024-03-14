@@ -22,12 +22,12 @@ const Info = () => {
         <div className="education-box">
             <i class='bx bx-timer education-icon'></i>
             <h3 className="education-title">Standing</h3>
-                <span className="education-subtitle">2nd Semester Sophomore</span>
+                <span className="education-subtitle">Junior</span>
         </div>
         <div className="education-box">
             <i class='bx bx-stats education-icon'></i>
             <h3 className="education-title">GPA</h3>
-                <span className="education-subtitle">3.84</span>
+                <span className="education-subtitle">3.71</span>
         </div>
         <div className="education-box">
             <i class='bx bx-line-chart education-icon'></i>
