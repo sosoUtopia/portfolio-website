@@ -2,6 +2,7 @@ import React from 'react'
 import Creative from './Creative'
 import Asa from './Asa'
 import Yummy from './Yummy'
+import Mitre from './Mitre'
 import "./experience.css"
 
 const Experience = () => {
@@ -14,6 +15,7 @@ const Experience = () => {
             My Work and Leadership Experiences
         </span>
         <div className="experience-container container grid">
+            <Mitre />
             <Creative />
             <Asa />
             {/* <div className="asa_img"></div> */}

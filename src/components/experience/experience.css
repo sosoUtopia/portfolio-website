@@ -60,6 +60,10 @@
     height: 300px;
 }
 
+.mitre-img {
+    background: url('../../assets//mitre_logo.png')
+}
+
 .experience-modal {
     position: fixed;
     top: 0;
